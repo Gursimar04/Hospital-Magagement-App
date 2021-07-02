@@ -1,0 +1,11 @@
+:host{
+    display:flex;
+    overflow:hidden;
+}
+.list{
+    width:60%;
+}
+
+.select{
+    width:40%;
+}

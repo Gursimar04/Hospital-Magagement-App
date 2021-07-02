@@ -1,0 +1,13 @@
+<div class="p-4 list">
+    <app-card-list></app-card-list>
+</div>
+
+<div class="pt-4 select">
+    <ng-template *ngIf='isDoctor; else elseblock'>
+        <app-booking></app-booking>
+    </ng-template>
+
+    <ng-template #elseblock>
+        <app-confirming></app-confirming>
+    </ng-template>
+</div>

@@ -1,0 +1,15 @@
+.personIcon{
+    width:8em;
+    height:8em;
+    margin:1em auto;
+    border-radius: 5em;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border:0.2em solid white;
+}
+
+.form{
+    width:65%;
+    margin:auto;
+}

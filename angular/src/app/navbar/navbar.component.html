@@ -1,0 +1,15 @@
+<nav class="navbar navbar-expand-sm sticky-top navbar-dark bg-primary">
+    <a class="navbar-brand mx-4">Health Care</a>
+    <button *ngIf="isLoggedIn" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div *ngIf="isLoggedIn" class="collapse navbar-collapse justify-content-end mx-4" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active" routerLink="/home">Home</a>
+            <a class="nav-item nav-link" routerLink="/prescription">Prescription</a>
+            <a class="nav-item nav-link" routerLink="/report">Report</a>
+            <!-- <a class="nav-item nav-link disabled" routerLink="/signup" tabindex="-1" aria-disabled="true">Disabled</a> -->
+        </div>
+    </div>
+</nav>

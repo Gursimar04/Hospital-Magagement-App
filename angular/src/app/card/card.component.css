@@ -1,0 +1,16 @@
+.personIcon{
+    width:4em;
+    height:4em;
+    margin:1em auto;
+    border-radius: 5em;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border:0.2em solid white;
+}
+
+.card{
+    border-radius: 1em !important;
+    height:13em !important;
+    width:10em;
+}
